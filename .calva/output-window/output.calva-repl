@@ -1,0 +1,555 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/andresmartins/Code/fwpd ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless ; popd
+; Using host:port 127.0.0.1:55305 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉fwpd.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉fwpd.core꞉> 
+; Jack-in done.
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:46:11).
+; Unable to resolve symbol: int->str in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:46:11).
+; Unable to resolve symbol: int->str in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:1:7968).
+; Unable to resolve symbol: int->str in this context
+clj꞉fwpd.core꞉> 
+#'fwpd.core/int->str
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+[]
+clj꞉fwpd.core꞉> 
+[]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+[]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:54:7).
+; No such namespace: csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/filename
+clj꞉fwpd.core꞉> 
+#'fwpd.core/vamp-keys
+clj꞉fwpd.core꞉> 
+#'fwpd.core/str->int
+clj꞉fwpd.core꞉> 
+#'fwpd.core/conversions
+clj꞉fwpd.core꞉> 
+#'fwpd.core/convert
+clj꞉fwpd.core꞉> 
+10
+clj꞉fwpd.core꞉> 
+#'fwpd.core/parse
+clj꞉fwpd.core꞉> 
+#'fwpd.core/mapify
+clj꞉fwpd.core꞉> 
+#'fwpd.core/glitter-filter
+clj꞉fwpd.core꞉> 
+("Dracula" "Dracula" "Dracula" "Carlisle Cullen" "Jacob Black" "Edward Cullen")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/int->str
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/not-empty?
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+[Nosferatu 10]
+nil
+clj꞉fwpd.core꞉> 
+[Nosferatu 10]
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/not-empty?
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+:glitter-inde
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+:glitter-inde
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/int->str
+clj꞉fwpd.core꞉> 
+#'fwpd.core/validate
+clj꞉fwpd.core꞉> 
+["Nosferatu" "10"]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/not-empty?
+clj꞉fwpd.core꞉> 
+#'fwpd.core/append-to-csv
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+nil
+clj꞉fwpd.core꞉> 
+#'fwpd.core/mapify
+clj꞉fwpd.core꞉> 
+("Nosferatu" "Nosferatu" "Carlisle Cullen" "Jacob Black" "Edward Cullen")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/int->str
+clj꞉fwpd.core꞉> 
+("Nosferatu" "Nosferatu" "Carlisle Cullen" "Jacob Black" "Edward Cullen")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/mapify
+clj꞉fwpd.core꞉> 
+#'fwpd.core/glitter-filter
+clj꞉fwpd.core꞉> 
+#'fwpd.core/parse
+clj꞉fwpd.core꞉> 
+; Execution error (IllegalArgumentException) at fwpd.core/eval8221 (form-init5158850845690833896.clj:25).
+; Cannot open <#function[clojure.core/file-seq]> as an InputStream.
+clj꞉fwpd.core꞉> 
+; Execution error (IllegalArgumentException) at fwpd.core/eval8223 (form-init5158850845690833896.clj:25).
+; Cannot open <#function[clojure.core/file-seq]> as an InputStream.
+clj꞉fwpd.core꞉> 
+"Edward Cullen,10\nBella Swan,0\nCharlie Swan,0\nJacob Black,3\nCarlisle Cullen,6\nNosferatu,10\nNosferatu,10\n"
+clj꞉fwpd.core꞉> 
+(["Edward Cullen" "10"]
+ ["Bella Swan" "0"]
+ ["Charlie Swan" "0"]
+ ["Jacob Black" "3"]
+ ["Carlisle Cullen" "6"]
+ ["Nosferatu" "10"]
+ ["Nosferatu" "10"])
+clj꞉fwpd.core꞉> 
+(["Edward Cullen" "10"]
+ ["Bella Swan" "0"]
+ ["Charlie Swan" "0"]
+ ["Jacob Black" "3"]
+ ["Carlisle Cullen" "6"]
+ ["Nosferatu" "10"]
+ ["Nosferatu" "10"])
+clj꞉fwpd.core꞉> 
+({:name "Edward Cullen", :glitter-index 10}
+ {:name "Bella Swan", :glitter-index 0}
+ {:name "Charlie Swan", :glitter-index 0}
+ {:name "Jacob Black", :glitter-index 3}
+ {:name "Carlisle Cullen", :glitter-index 6}
+ {:name "Nosferatu", :glitter-index 10}
+ {:name "Nosferatu", :glitter-index 10})
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:41:1).
+; Unable to resolve symbol: map->csv-str in this context
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:41:1).
+; Unable to resolve symbol: suspects in this context
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:1:7968).
+; Unable to resolve symbol: « in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:1:7968).
+; Unable to resolve symbol: « in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:40:1).
+; Unable to resolve symbol: suspects in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:40:1).
+; Unable to resolve symbol: suspects in this context
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:40:1).
+; Unable to resolve symbol: suspects in this context
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Syntax error compiling at (src/fwpd/core.clj:40:1).
+; Unable to resolve symbol: suspects in this context
+clj꞉fwpd.core꞉> 
+#'fwpd.core/suspects
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+({:name "Edward Cullen", :glitter-index 10}
+ {:name "Bella Swan", :glitter-index 0}
+ {:name "Charlie Swan", :glitter-index 0}
+ {:name "Jacob Black", :glitter-index 3}
+ {:name "Carlisle Cullen", :glitter-index 6}
+ {:name "Nosferatu", :glitter-index 10}
+ {:name "Nosferatu", :glitter-index 10})
+clj꞉fwpd.core꞉> 
+({:name "Edward Cullen", :glitter-index 10}
+ {:name "Bella Swan", :glitter-index 0}
+ {:name "Charlie Swan", :glitter-index 0}
+ {:name "Jacob Black", :glitter-index 3}
+ {:name "Carlisle Cullen", :glitter-index 6}
+ {:name "Nosferatu", :glitter-index 10}
+ {:name "Nosferatu", :glitter-index 10})
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.APersistentMap$ValSeq/first (APersistentMap.java:236).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+clj꞉fwpd.core꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.APersistentMap$ValSeq/first (APersistentMap.java:236).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+(("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10))
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+[("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10)]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+[("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10)]
+clj꞉fwpd.core꞉> 
+"Edward,10"
+clj꞉fwpd.core꞉> 
+"Edward,10,\n"
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+"Edward,10"
+clj꞉fwpd.core꞉> 
+; Execution error (ClassCastException) at fwpd.core/map->csv-str (form-init5158850845690833896.clj:37).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉fwpd.core꞉> 
+; Execution error (ClassCastException) at fwpd.core/map->csv-str (form-init5158850845690833896.clj:37).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Execution error (ClassCastException) at fwpd.core/map->csv-str (form-init5158850845690833896.clj:37).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+#function[clojure.core/vals]
+; Execution error (NullPointerException) at fwpd.core/map->csv-str (form-init5158850845690833896.clj:37).
+; Cannot invoke "clojure.lang.IFn.invoke(Object)" because "this.f" is null
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+#function[clojure.core/vals]
+; Execution error (NullPointerException) at fwpd.core/map->csv-str (form-init5158850845690833896.clj:37).
+; Cannot invoke "clojure.lang.IFn.invoke(Object)" because "this.f" is null
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+[("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10)]
+clj꞉fwpd.core꞉> 
+"Edward,10"
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+["[:name \"Edward Cullen\"],[:glitter-index 10]"]
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+("[:name \"Edward Cullen\"],[:glitter-index 10]")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+("[:name \"Edward Cullen\"],[:glitter-index 10]"
+ "[:name \"Bella Swan\"],[:glitter-index 0]"
+ "[:name \"Charlie Swan\"],[:glitter-index 0]"
+ "[:name \"Jacob Black\"],[:glitter-index 3]"
+ "[:name \"Carlisle Cullen\"],[:glitter-index 6]"
+ "[:name \"Nosferatu\"],[:glitter-index 10]"
+ "[:name \"Nosferatu\"],[:glitter-index 10]")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+({:name "Edward Cullen", :glitter-index 10}
+ {:name "Bella Swan", :glitter-index 0}
+ {:name "Charlie Swan", :glitter-index 0}
+ {:name "Jacob Black", :glitter-index 3}
+ {:name "Carlisle Cullen", :glitter-index 6}
+ {:name "Nosferatu", :glitter-index 10}
+ {:name "Nosferatu", :glitter-index 10})
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.APersistentMap$ValSeq/first (APersistentMap.java:236).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+; Error printing return value (ClassCastException) at null (REPL:1).
+; null
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+(("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10))
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+"(\"Edward Cullen\" 10),(\"Bella Swan\" 0),(\"Charlie Swan\" 0),(\"Jacob Black\" 3),(\"Carlisle Cullen\" 6),(\"Nosferatu\" 10),(\"Nosferatu\" 10)"
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+"(\"Edward Cullen\" 10)\n(\"Bella Swan\" 0)\n(\"Charlie Swan\" 0)\n(\"Jacob Black\" 3)\n(\"Carlisle Cullen\" 6)\n(\"Nosferatu\" 10)\n(\"Nosferatu\" 10)"
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+"Edward Cullen\n10\nBella Swan\n0\nCharlie Swan\n0\nJacob Black\n3\nCarlisle Cullen\n6\nNosferatu\n10\nNosferatu\n10"
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+(("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10))
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+(("Edward Cullen" 10)
+ ("Bella Swan" 0)
+ ("Charlie Swan" 0)
+ ("Jacob Black" 3)
+ ("Carlisle Cullen" 6)
+ ("Nosferatu" 10)
+ ("Nosferatu" 10))
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+("Edward Cullen,10" "Bella Swan,0" "Charlie Swan,0" "Jacob Black,3" "Carlisle Cullen,6" "Nosferatu,10" "Nosferatu,10")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+("Edward Cullen,10")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+("Edward Cullen,10" "Bella Swan,0" "Charlie Swan,0" "Jacob Black,3" "Carlisle Cullen,6" "Nosferatu,10" "Nosferatu,10")
+clj꞉fwpd.core꞉> 
+#'fwpd.core/map->csv-str
+clj꞉fwpd.core꞉> 
+"Edward Cullen,10\nBella Swan,0\nCharlie Swan,0\nJacob Black,3\nCarlisle Cullen,6\nNosferatu,10\nNosferatu,10"
+clj꞉fwpd.core꞉> 
+"valor1,valor2"
+clj꞉fwpd.core꞉> 
+"valor1,valor2"
+clj꞉fwpd.core꞉> 
+"valor1,valor2"
+clj꞉fwpd.core꞉> 
+"valor1,valor2"
+clj꞉fwpd.core꞉> 
